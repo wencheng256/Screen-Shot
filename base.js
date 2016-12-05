@@ -1,7 +1,7 @@
 
 function require(model){
     var script = document.createElement("script");
-    script.setAttribute("src", "//show.mario256.cn/"+model+".js");
+    script.setAttribute("src", "//js.mario256.cn/"+model+".js");
     document.body.appendChild(script);
 }
 
